@@ -17,6 +17,7 @@ import { GraficoComponent } from './portfolio/grafico/grafico.component';
 import { CurriculumComponent } from './about/curriculum/curriculum.component';
 import { HomeComponent } from './home/home.component';
 import { Page404Component } from './page404/page404.component';
+import { ProjectsComponent } from './portfolio/web/github-projects/projects/projects.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { Page404Component } from './page404/page404.component';
     CurriculumComponent,
     HomeComponent,
     Page404Component,
+    ProjectsComponent,
   
   ],
   imports: [
